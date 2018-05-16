@@ -161,7 +161,7 @@ namespace mbit_显示类 {
  ****************************************************************************************************************************************/
 
 //% color="#87CEEB" weight=24 icon="\uf1b6"
-namespace Mbit_传感器类 {
+namespace Hua_mbit_传感器类 {
 
     export enum enVoice {
         //% blockId="Voice" block="有声音"
