@@ -10,10 +10,10 @@
   "Hua_Mbit_输入类.Rocker|block": "遥杆|VRX %pin1|VRY %pin2|SW %pin3|返回 %value",
   "Hua_Mbit_输入类.Button|block": "按键|引脚 %pin|返回 %value",
 
-  "Hua_Mbit_传感器类.Voice_Sensor|block": "声音传感器|引脚 %pin|返回 %value",
-  "Hua_Mbit_传感器类.IR_Sensor|block": "红外传感器|引脚 %pin|  |%value|障碍物",
-  "Hua_Mbit_传感器类.IR_Send|block": "红外发射|引脚 %pin",
-  "Hua_Mbit_传感器类.Ultrasonic|block": "超声波|发射管脚 %Trig|接收管脚 %Echo",
+  "Hua_Mbit_传感器类1.Voice_Sensor|block": "声音传感器|引脚 %pin|返回 %value",
+  "Hua_Mbit_传感器类1.IR_Sensor|block": "红外传感器|引脚 %pin|  |%value|障碍物",
+  "Hua_Mbit_传感器类1.IR_Send|block": "红外发射|引脚 %pin",
+  "Hua_Mbit_传感器类1.Ultrasonic|block": "超声波|发射管脚 %Trig|接收管脚 %Echo",
 
   "Hua_Mbit_音乐类.Buzzer|block": "有源蜂鸣器|引脚 %pin|值 %value",
 
