@@ -525,9 +525,12 @@ namespace Hua_Mbit_小车类 {
     
     export enum enServo {
         
-        S1 = 1,
-        S2,
-        S3
+        S1 = 3,
+        S2 = 4,
+        S3 = 5,
+		S4 = 9,
+		S5 = 10,
+		S6 = 11
     }
     export enum CarState {
         //% blockId="Car_Run" block="前行"
