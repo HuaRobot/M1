@@ -912,7 +912,7 @@ namespace Hua_Mbit_小车类 {
         // 50hz: 20,000 us
         let us = (value * 1800 / 180 + 600); // 0.6 ~ 2.4
         let pwm = us * 4096 / 20000;
-        setPwm(num + 2, 0, pwm);
+        setPwm(num , 0, pwm);
 
     }
 
