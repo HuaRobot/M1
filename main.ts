@@ -2,7 +2,7 @@
 Copyright (C): 2010-2019, Shenzhen Yahboom Tech
 modified from liusen
 load dependency
-"mbit": "file:../pxt-mbit"
+"M1": "file:../pxt-M1"
 */
 
 
@@ -38,7 +38,7 @@ namespace Hua_M1_显示类 {
         ON =1
     }
 
-    //% blockId=mbit_LED1 block="LED1|pin %pin|value %value"
+    //% blockId=M1_LED1 block="LED1|pin %pin|value %value"
     //% weight=5
     //% blockGap=8
     //% color="#C814B8"
@@ -49,7 +49,7 @@ namespace Hua_M1_显示类 {
 
     }
 
-    //% blockId=mbit_LED2 block="LED2|pin %pin|value %value"
+    //% blockId=M1_LED2 block="LED2|pin %pin|value %value"
     //% weight=4
     //% blockGap=8
     //% color="#C814B8"
@@ -61,7 +61,7 @@ namespace Hua_M1_显示类 {
 
     }
 
-    //% blockId=mbit_BreathLED block="BreathLED|pin %pin"
+    //% blockId=M1_BreathLED block="BreathLED|pin %pin"
     //% weight=3
     //% blockGap=8
     //% color="#C814B8"
@@ -82,7 +82,7 @@ namespace Hua_M1_显示类 {
 
     }
 
-    //% blockId=mbit_RGB block="RGB|pin1 %pin1|pin2 %pin2|pin3 %pin3|value1 %value1|value2 %value2|value3 %value3"
+    //% blockId=M1_RGB block="RGB|pin1 %pin1|pin2 %pin2|pin3 %pin3|value1 %value1|value2 %value2|value3 %value3"
     //% weight=2
     //% blockGap=8
     //% color="#C814B8"
@@ -95,7 +95,7 @@ namespace Hua_M1_显示类 {
         pins.analogWritePin(pin3, value3 * 1024 / 256);
 
     }
-    //% blockId=mbit_RGB2 block="RGB|pin1 %pin1|pin2 %pin2|pin3 %pin3|value %value"
+    //% blockId=M1_RGB2 block="RGB|pin1 %pin1|pin2 %pin2|pin3 %pin3|value %value"
     //% weight=1
     //% blockGap=8
     //% color="#C814B8"
@@ -178,7 +178,7 @@ namespace Hua_M1_传感器类 {
     }
     
 
-    //% blockId=mbit_Voice_Sensor block="Voice_Sensor|pin %pin|value %value"
+    //% blockId=M1_Voice_Sensor block="Voice_Sensor|pin %pin|value %value"
     //% weight=100
     //% blockGap=10
     //% color="#87CEEB"
@@ -203,7 +203,7 @@ namespace Hua_M1_传感器类 {
             control.waitMicros(13);
         }
     }
-    //% blockId=mbit_IR_Sensor block="IR_Sensor|pin %pin| |%value|障碍物"
+    //% blockId=M1_IR_Sensor block="IR_Sensor|pin %pin| |%value|障碍物"
     //% weight=100
     //% blockGap=10
     //% color="#87CEEB"
@@ -221,7 +221,7 @@ namespace Hua_M1_传感器类 {
 
     }
 
-    //% blockId=mbit_IR_Send block="IR_Send|pin %pin"
+    //% blockId=M1_IR_Send block="IR_Send|pin %pin"
     //% weight=100
     //% blockGap=10
     //% color="#87CEEB"
@@ -233,7 +233,7 @@ namespace Hua_M1_传感器类 {
 
     }
    
-    //% blockId=mbit_ultrasonic block="Ultrasonic|Trig %Trig|Echo %Echo"
+    //% blockId=M1_ultrasonic block="Ultrasonic|Trig %Trig|Echo %Echo"
     //% color="#87CEEB"
     //% weight=100
     //% blockGap=10
@@ -289,7 +289,7 @@ namespace Hua_M1_输入类 {
         Realse = 1
     }
 
-    //% blockId=mbit_TouchPad block="TouchPad|pin %pin|value %value"
+    //% blockId=M1_TouchPad block="TouchPad|pin %pin|value %value"
     //% weight=100
     //% blockGap=10
     //% color="#808080"
@@ -305,7 +305,7 @@ namespace Hua_M1_输入类 {
         }
 
     }
-    //% blockId=mbit_Rocker block="Rocker|VRX %pin1|VRY %pin2|SW %pin3|value %value"
+    //% blockId=M1_Rocker block="Rocker|VRX %pin1|VRY %pin2|SW %pin3|value %value"
     //% weight=100
     //% blockGap=10
     //% color="#808080"
@@ -349,7 +349,7 @@ namespace Hua_M1_输入类 {
 
     }
 
-    //% blockId=mbit_Button block="Button|pin %pin|value %value"
+    //% blockId=M1_Button block="Button|pin %pin|value %value"
     //% weight=100
     //% blockGap=10
     //% color="#808080"
@@ -381,7 +381,7 @@ namespace Hua_M1_音乐类 {
         Beep
     }
 
-    //% blockId=mbit_Buzzer block="Buzzer|pin %pin|value %value"
+    //% blockId=M1_Buzzer block="Buzzer|pin %pin|value %value"
     //% weight=100
     //% blockGap=10 
     //% color="#D2691E"
@@ -403,7 +403,7 @@ namespace Hua_M1_音乐类 {
 //% color="#0000CD" weight=21 icon="\uf185"
 namespace Hua_M1_电机类 {
 
-    //% blockId=mbit_Fan block="Fan|pin %pin|speed %value"
+    //% blockId=M1_Fan block="Fan|pin %pin|speed %value"
     //% weight=100
     //% blockGap=10
     //% color="#0000CD"
@@ -415,7 +415,7 @@ namespace Hua_M1_电机类 {
 
     }
 
-    //% blockId=mbit_Servo block="Servo|pin %pin|value %value"
+    //% blockId=M1_Servo block="Servo|pin %pin|value %value"
     //% weight=100
     //% blockGap=10
     //% color="#0000CD"
@@ -755,7 +755,7 @@ namespace Hua_M1_小车类 {
      * *****************************************************************
      * @param index
      */
-    //% blockId=mbit_RGB_Car_Big2 block="RGB_Car_Big2|value %value"
+    //% blockId=M1_RGB_Car_Big2 block="RGB_Car_Big2|value %value"
     //% weight=101
     //% blockGap=10
     //% color="#C814B8"
@@ -813,7 +813,7 @@ namespace Hua_M1_小车类 {
             }
         }
     }
-    //% blockId=mbit_RGB_Car_Big block="RGB_Car_Big|value1 %value1|value2 %value2|value3 %value3"
+    //% blockId=M1_RGB_Car_Big block="RGB_Car_Big|value1 %value1|value2 %value2|value3 %value3"
     //% weight=100
     //% blockGap=10
     //% color="#C814B8"
@@ -838,7 +838,7 @@ namespace Hua_M1_小车类 {
 
     }
 
-    //% blockId=mbit_RGB_Car_Program block="RGB_Car_Program"
+    //% blockId=M1_RGB_Car_Program block="RGB_Car_Program"
     //% weight=99
     //% blockGap=10
     //% color="#C814B8"
@@ -852,7 +852,7 @@ namespace Hua_M1_小车类 {
     }
 
 
-	//% blockId=mbit_ultrasonic_car block="ultrasonic return distance(cm)"
+	//% blockId=M1_ultrasonic_car block="ultrasonic return distance(cm)"
     //% color="#006400"
     //% weight=98
     //% blockGap=10
@@ -872,7 +872,7 @@ namespace Hua_M1_小车类 {
         return d / 58;
     }
 
-    //% blockId=mbit_Music_Car block="Music_Car|%index"
+    //% blockId=M1_Music_Car block="Music_Car|%index"
     //% weight=97
     //% blockGap=10
     //% color="#006400"
@@ -901,7 +901,7 @@ namespace Hua_M1_小车类 {
             case enMusic.power_down: music.beginMelody(music.builtInMelody(Melodies.PowerDown), MelodyOptions.Once); break;
         }
     }
-    //% blockId=mbit_Servo_Car block="Servo_Car|num %num|value %value"
+    //% blockId=M1_Servo_Car block="Servo_Car|num %num|value %value"
     //% weight=96
     //% blockGap=10
     //% color="#006400"
@@ -916,7 +916,7 @@ namespace Hua_M1_小车类 {
 
     }
 
-    //% blockId=mbit_Avoid_Sensor block="Avoid_Sensor|value %value"
+    //% blockId=M1_Avoid_Sensor block="Avoid_Sensor|value %value"
     //% weight=95
     //% blockGap=10
     //% color="#006400"
@@ -956,7 +956,7 @@ namespace Hua_M1_小车类 {
         return temp;
 
     }
-    //% blockId=mbit_Line_Sensor block="Line_Sensor|direct %direct|value %value"
+    //% blockId=M1_Line_Sensor block="Line_Sensor|direct %direct|value %value"
     //% weight=94
     //% blockGap=10
     //% color="#006400"
@@ -1001,7 +1001,7 @@ namespace Hua_M1_小车类 {
         return temp;
 
     }
-    //% blockId=mbit_CarCtrl block="CarCtrl|%index"
+    //% blockId=M1_CarCtrl block="CarCtrl|%index"
     //% weight=93
     //% blockGap=10
     //% color="#006400"
@@ -1017,7 +1017,7 @@ namespace Hua_M1_小车类 {
             case CarState.Car_SpinRight: Car_spinright(255); break;
         }
     }
-    //% blockId=mbit_CarCtrlSpeed block="CarCtrlSpeed|%index|speed %speed"
+    //% blockId=M1_CarCtrlSpeed block="CarCtrlSpeed|%index|speed %speed"
     //% weight=92
     //% blockGap=10
     //% speed.min=0 speed.max=255
