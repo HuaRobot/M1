@@ -2,7 +2,7 @@
 Copyright (C): 2010-2019, Shenzhen Yahboom Tech
 modified from liusen
 load dependency
-"M1": "file:../pxt-M1"
+"HuaRobot_M1": "file:../pxt-HuaRobot_M1"
 */
 
 
