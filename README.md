@@ -1,4 +1,4 @@
-# mbit
+# HuaRobot_M1
 
 Extension for Hua_microbit
 
