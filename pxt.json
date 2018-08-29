@@ -6,7 +6,7 @@
     "dependencies": {
         "core": "*",
         "neopixel": "github:microsoft/pxt-neopixel#v0.3.10",
-        "HuaRobot_M1_IR":  "github:HuaRobot/HuaRobot_M1_IR"
+        "HuaRobot_M1_IR":  "github:HuaRobot/hua_microbit-ir"
 	
 
     },
