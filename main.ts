@@ -1,5 +1,5 @@
 ﻿/*
-load dependency   Test
+load dependency
 "HuaRobot_M1": "file:../pxt-HuaRobot_M1"
 */
 
